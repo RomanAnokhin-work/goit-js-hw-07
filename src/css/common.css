@@ -116,14 +116,14 @@ h1 {
 }
 input {
   font-weight: 400;
-    font-size: 16px;
-  
-    /* line-height: 24px; */
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #2e2f42;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
   border: 1px solid #808080;
-    border-radius: 4px;
+  border-radius: 4px;
   margin-top: 8px;
   width: 360px;
   height: 40px;
@@ -146,23 +146,22 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
 }
-button:hover{
+button:hover {
   background: #6c8cff;
 }
-input:hover{
+input:hover {
   border: 1px solid #212121;
 }
 
-.change-color{
+.change-color {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 8px;
-    padding: 8px 16px;
-    width: 148px;
-    height: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
   background: #4e75ff;
-  
 }
