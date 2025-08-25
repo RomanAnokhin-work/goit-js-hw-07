@@ -62,7 +62,7 @@ ul {
 }
 
 .gallery {
-  width: 1128px;
+  max-width: 1128px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -77,7 +77,7 @@ ul {
 .image-item img {
   max-width: 100%;
   display: block;
-  height: auto;
+  
 }
 #name-input {
   margin-right: 24px;
